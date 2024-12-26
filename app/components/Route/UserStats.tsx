@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { UserStatProps } from '..//../types';
+import { UserStatProps } from './types';
 
 export const UserStats: React.FC<UserStatProps> = ({ count, label, imageSrc }) => {
   return (
