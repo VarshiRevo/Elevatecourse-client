@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { CTAButtonProps } from '..//../types';
+import { CTAButtonProps } from './types';
 
 export const CTAButton: React.FC<CTAButtonProps> = ({ text, iconSrc, variant }) => {
   const baseStyles = "flex gap-5 justify-center items-center self-stretch py-3";
