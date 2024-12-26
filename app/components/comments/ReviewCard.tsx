@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ReviewCardProps } from '..//../types';
+import { ReviewCardProps } from './types';
 
 export const ReviewCard: React.FC<ReviewCardProps> = ({
   avatarSrc,
