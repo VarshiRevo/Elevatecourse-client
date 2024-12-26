@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ReviewSetProps } from '..//../types';
+import { ReviewSetProps } from './types';
 import { ReviewCard } from './ReviewCard';
 
 export const ReviewSet: React.FC<ReviewSetProps> = ({ reviews }) => {
