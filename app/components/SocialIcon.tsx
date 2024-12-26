@@ -1,4 +1,4 @@
-import { SocialIconProps } from '..//../types';
+import { SocialIconProps } from './types';
 
 export const SocialIcon: React.FC<SocialIconProps> = ({ src, alt }) => (
   <img
