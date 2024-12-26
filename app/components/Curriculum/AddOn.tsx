@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { AddOnProps } from '..//../types';
+import { AddOnProps } from './types.ts';
 
 export const AddOn: React.FC<AddOnProps> = ({ text, backgroundColor }) => {
   return (
