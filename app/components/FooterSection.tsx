@@ -1,4 +1,4 @@
-import { FooterSectionProps } from '..//../types';
+import { FooterSectionProps } from './types';
 
 export const FooterSection: React.FC<FooterSectionProps> = ({ title, links }) => (
   <section className="flex flex-col grow shrink min-w-[240px]">
