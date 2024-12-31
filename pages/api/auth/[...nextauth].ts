@@ -11,6 +11,11 @@ export const authOptions = {
         GithubProvider({
             clientId: process.env.GITHUB_CLIENT_ID || '',
             clientSecret: process.env.GITHUB_CLIENT_SECRET || '',
+            authorization: {
+                params: {
+                  redirect_uri: process.env.NEXT_PUBLIC_REDIRECT_URI,
+                },
+              },
         })
     ],
   secret: process.env.SECRET,
